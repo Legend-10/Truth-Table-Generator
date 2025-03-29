@@ -28,6 +28,15 @@ def generate_truth_table(expression):
         return None
 
 st.title("Logical Expression Truth Table Generator")
+with st.expander("🧰 Technologies Used"):
+    st.markdown("""
+    This app is built with:
+    - **[Streamlit](https://streamlit.io/)** - Web app framework
+    - **[SymPy](https://www.sympy.org/)** - Symbolic mathematics library
+    - **[Pandas](https://pandas.pydata.org/)** - Data manipulation
+    - **[itertools](https://docs.python.org/3/library/itertools.html)** - Combinatorial generators
+    - **[Python](https://python.org/)** - Base programming language
+    """)
  
 help_text = """
 Enter a logical expression using:
